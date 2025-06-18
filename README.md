@@ -6,32 +6,46 @@ This repo is a collection of my daily solutions to coding problems aimed at stre
 
 📌 About the Challenge
 The GFG 160 Days Challenge is a structured program focused on enhancing DSA problem-solving skills. Over the course of 160 days, it covers a wide range of core computer science topics including:
+
 ✅ Arrays
+
 ✅ Strings
+
 ✅ Recursion
+
 ✅ Dynamic Programming
+
 ✅ Graphs
+
 ✅ Trees
+
 ✅ Bit Manipulation
+
 ✅ And many more...
 
 🛠 Repository Structure
 Each day’s solution is neatly organized into folders by day:
+
+bash
+Copy
+Edit
 📁 Day_01/     # Solution for Day 1  
 📁 Day_02/     # Solution for Day 2  
 📁 ...  
 📁 Day_160/    # Final day’s solution  
-
 Every folder typically contains:
+
 ✅ Solution file (.java)
+
 ✅ Problem statement (README.md)
+
 ✅ Explanation or approach (if needed)
 
 🚧 Progress Tracker
 Phase	Status
-Day 1 - Day 50	🔧 In Progress
-Day 51 - Day 100 ⏳ Coming Soon
-Day 101 - Day 160 ⏳ Coming Soon
+Day 1 - Day 50	✅ Completed
+Day 51 - Day 100	🔧 In Progress
+Day 101 - Day 160	⏳ Coming Soon
 
 💡 How to Use
 Clone this repository:
@@ -42,19 +56,28 @@ Run the code using your preferred compiler or interpreter.
 
 📚 Resources Referenced
 GeeksforGeeks Practice Portal
+
 LeetCode, CodeChef – for additional practice
 
 Books:
+
 Cracking the Coding Interview
+
 Data Structures & Algorithms in Java/Python
 
 🤝 Let’s Connect
 If you find this repository helpful:
+
 ⭐ Star it
+
 🔁 Fork it
+
 💬 Share suggestions or improvements
+
 🔗 Connect with me on LinkedIn
 
 Happy Coding! 🚀🔥
 Let the challenge push your limits and sharpen your coding skills day by day.
+
+
 
