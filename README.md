@@ -26,13 +26,11 @@ The GFG 160 Days Challenge is a structured program focused on enhancing DSA prob
 🛠 Repository Structure
 Each day’s solution is neatly organized into folders by day:
 
-bash
-Copy
-Edit
 📁 Day_01/     # Solution for Day 1  
 📁 Day_02/     # Solution for Day 2  
 📁 ...  
 📁 Day_160/    # Final day’s solution  
+
 Every folder typically contains:
 
 ✅ Solution file (.java)
@@ -43,8 +41,8 @@ Every folder typically contains:
 
 🚧 Progress Tracker
 Phase	Status
-Day 1 - Day 50	✅ Completed
-Day 51 - Day 100	🔧 In Progress
+Day 1 - Day 50	🔧 In Progress
+Day 51 - Day 100	⏳ Coming Soon
 Day 101 - Day 160	⏳ Coming Soon
 
 💡 How to Use
@@ -75,6 +73,8 @@ If you find this repository helpful:
 💬 Share suggestions or improvements
 
 🔗 Connect with me on LinkedIn
+
+
 
 Happy Coding! 🚀🔥
 Let the challenge push your limits and sharpen your coding skills day by day.
