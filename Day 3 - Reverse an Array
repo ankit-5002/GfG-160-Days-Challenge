@@ -1,0 +1,20 @@
+### Reverse an Array
+Java Program for Reversing a given user input array
+
+
+ class Solution {
+    public void reverseArray(int arr[]) {
+        // code here
+        
+        while (left < right) {
+            // Swap arr[left] and arr[right]
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+
+            // Move the pointers
+            left++;
+            right--;
+        }
+    }
+}
