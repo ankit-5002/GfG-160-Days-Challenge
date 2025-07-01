@@ -1,0 +1,31 @@
+### Rotate Array 
+Given an array arr[]. Rotate the array to the left (counter-clockwise direction) by d steps, where d is a positive integer. Do the mentioned change in the array in place.
+
+
+class Solution {
+    // Function to rotate an array by d elements in counter-clockwise direction.
+    static void rotateArr(int arr[], int d) {
+        // add your code here
+        
+        int n = arr.length;
+        d=(d%n);
+        int index=0;
+        int [] brr = new int[n];
+        
+        for(int i=d;i<n;i++){
+            brr[index] = arr[i];
+            index++;
+        }
+        
+        for(int j=0;j<d;j++){
+            brr[index] = arr[j];
+            index++;
+        }
+        
+        
+        for(int i=0;i<n;i++){
+            arr[i] = brr[i];
+        }
+        
+    }
+}
