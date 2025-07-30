@@ -81,7 +81,7 @@ If you find this repository helpful:
 * ⭐ Star it
 * 🔁 Fork it
 * 💬 Share suggestions or improvements
-* 🔗 [Connect with me on LinkedIn](#)
+* 🔗 [Connect with me on LinkedIn](https://www.linkedin.com/in/ankit-kumar5002/)
 
 ---
 
