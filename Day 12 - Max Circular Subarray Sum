@@ -1,0 +1,35 @@
+### Max Circular Subarray Sum
+You are given a circular array arr[] of integers, find the maximum possible sum of a non-empty subarray. 
+In a circular array, the subarray can start at the end and wrap around to the beginning. 
+Return the maximum non-empty subarray sum, considering both non-wrapping and wrapping cases.
+
+
+class Solution {
+
+    // a: input array
+    // n: size of array
+    // Function to find maximum circular subarray sum.
+    public int circularSubarraySum(int arr[]) {
+
+        // Your code here
+        int totalSum = 0;
+        int maxSum = Integer.MIN_VALUE;
+        int minSum = Integer.MAX_VALUE;
+        int currMin = 0;
+        int currMax = 0;
+        
+        for (int i = 0; i < arr.length; i++) {
+            totalSum += arr[i];
+            currMax = Math.max(arr[i], currMax + arr[i]);
+            maxSum = Math.max(maxSum, currMax);
+            currMin = Math.min(arr[i], currMin + arr[i]);
+            minSum = Math.min(minSum, currMin);
+        }
+        
+        if (maxSum < 0) {
+            return maxSum;
+        }
+        
+        return Math.max(maxSum, totalSum - minSum);
+    }
+}
