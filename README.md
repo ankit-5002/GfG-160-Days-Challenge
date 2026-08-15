@@ -45,8 +45,8 @@ Each folder typically includes:
 
 | Phase             | Status         |
 | ----------------- | -------------- |
-| Day 1 - Day 50    | 🔧 In Progress |
-| Day 51 - Day 100  | ⏳ Coming Soon  |
+| Day 1 - Day 50    | ✅ Completed.   |
+| Day 51 - Day 100  | 🔧 In Progress  |
 | Day 101 - Day 160 | ⏳ Coming Soon  |
 
 ---
